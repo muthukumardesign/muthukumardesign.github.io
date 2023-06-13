@@ -13,15 +13,25 @@ p {
   margin-top: 30px;
 }
 
-.bg {
-  background-color: #fff;
+.body-overlay {
+    opacity: 1;
+}
+
+body .body-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .btn_custome {
-  background-color: #0067f4;
+  background-color: #FFC848;
   width: 250px;
   height: 60px;
-  color: #fff;
+  color: #000;
   border-radius: 0;
   font-size: 1.2rem;
   font-style: normal;
@@ -30,10 +40,10 @@ p {
 }
 
 .btn_custome:hover {
-  background-color: #0055cc;
+  background-color: #FFC848;
   width: 250px;
   height: 60px;
-  color: #fff;
+  color: #000;
   border-radius: 0;
   font-size: 1.2rem;
   font-style: normal;
@@ -42,7 +52,7 @@ p {
 }
 
 .card-hover:hover {
-  box-shadow: 0 2px 5px 3px rgba(235, 233, 233, 30%);
+  background-color: #FFC848;
   border-radius: 15px;
   transition: ease-out;
 }
@@ -121,7 +131,7 @@ a {
 }
 .back-to-top:hover {
   color: #fff;
-  background-color: #0067f4;
+  background-color: #FFC848;
 }
 
 .c-img {
