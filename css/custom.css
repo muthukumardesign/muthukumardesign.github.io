@@ -27,6 +27,16 @@ body .body-overlay {
     z-index: -1;
 }
 
+body .body-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 .btn_custome {
   background-color: #FFC848;
   width: 250px;
